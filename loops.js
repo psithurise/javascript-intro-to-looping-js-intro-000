@@ -11,7 +11,7 @@ function forLoop(arr) {
 function whileLoop(num) {
   while(num > 0) {
     console.log(--num)
-  } 
+  }
 }
 
 function doWhileLoop(num) {
@@ -19,12 +19,12 @@ function doWhileLoop(num) {
 
   if(num == 0)
     console.log("I got a 0.")
- 
+
   function incrementVariable() {
     i = i + 1;
     return i;
   }
- 
+
   do {
     console.log("I run once regardless");
   }  while (incrementVariable() < num);
