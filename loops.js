@@ -5,4 +5,5 @@ function forLoop(arr) {
     else
       arr.push(`i am ${i} strange loops.`)
   }
+  return arr;
 }
