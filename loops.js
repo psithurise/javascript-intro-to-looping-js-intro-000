@@ -12,13 +12,11 @@ function whileLoop(num) {
   while(num > 0) {
     console.log(--num)
   }
+  console.log('done')
 }
 
 function doWhileLoop(num) {
   var i = 0;
-
-  if(num == 0)
-    console.log("I got a 0.")
 
   function incrementVariable() {
     i = i + 1;
@@ -26,6 +24,8 @@ function doWhileLoop(num) {
   }
 
   do {
+    if(num == 0)
+      console.log("I got a 0.")
     console.log("I run once regardless");
   }  while (incrementVariable() < num);
 }
